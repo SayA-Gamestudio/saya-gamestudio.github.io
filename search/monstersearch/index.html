@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DnD Monster Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>DnD Monster Search</h1>
+
+    <!-- Searchbar -->
+    <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search monsters..." />
+        <ul id="results"></ul>
+    </div>
+
+    <!-- Popup -->
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <p id="popupText"></p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script>load("monsters", ["name", "size", "type", "alignment", "challengeRating", "description"]);</script>
+</body>
+</html>

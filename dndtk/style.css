@@ -1,0 +1,224 @@
+:root {
+    --background-color: #C4956A;
+    --primary-color: darkred;
+    --field-background-color: #F5E6C8;
+    --button-hover-color: #c4b8a1;
+    --remove-color: red;
+    --player-button-size: 200px;
+    --export-button-size: calc(var(--player-button-size) / 5);
+    --dropdown-image-width: 200px;
+}
+
+/* Fonts */
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Elements */
+h1, h2, h3 {
+    /* Font */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    /* Font */
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: var(--background-color);
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+    overflow: scroll;
+}
+
+textarea, input {
+    /* Font */
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Pages */
+.page {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.page.active {
+    display: block;
+}
+
+#playersContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    place-items: center;
+}
+
+.playerButton {
+    position: relative;
+    background-color: var(--field-background-color);
+    width: var(--player-button-size);
+    height: var(--player-button-size);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+.playerButton img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.playerButton p {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+#newPlayerButton {
+    font-size: 50px;
+    background-color: var(--field-background-color);
+    color: green;
+    width: var(--player-button-size);
+    height: var(--player-button-size);
+}
+
+.fieldsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 50px;
+    overflow-x: auto;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--field-background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 30px;
+    min-width: fit-content;
+    max-height: 60vh;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.fields.scrollable {
+    box-shadow: inset 0 -20px 20px -10px rgba(0,0,0,0.3);
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fieldInput {
+    width: 100px;
+    height: 36px;
+    box-sizing: border-box;
+}
+textarea.fieldInput {
+    width: 200px;
+}
+textarea.fieldInput.bigFieldInput {
+    height: 50vh;
+}
+
+.plusButton {
+    background-color: var(--field-background-color);
+    border-radius: 5px;
+}
+
+.saveButton {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.saveButton:hover {
+    background-color: limegreen;
+}
+.saveButton:active {
+    background-color: greenyellow;
+}
+
+.exportButton, .importButton {
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.exportButton {
+    background-color: #4CAF50;
+}
+.importButton {
+    background-color: #2196F3;
+}
+
+.removeButton {
+    background-color: red;
+    border: 2px solid darkred;
+    border-radius: 5px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}

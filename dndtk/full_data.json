@@ -1,0 +1,438 @@
+{
+  "classes": [
+    {
+      "name": "Artificer",
+      "subclasses": [
+        "Alchemist",
+        "Armorer",
+        "Artillerist",
+        "Battle Smith"
+      ]
+    },
+    {
+      "name": "Barbarian",
+      "subclasses": [
+        "Path of the Ancestral Guardian",
+        "Path of the Battlerager",
+        "Path of the Beast",
+        "Path of the Berserker",
+        "Path of the Giant",
+        "Path of the Storm Herald",
+        "Path of the Totem Warrior",
+        "Path of Wild Magic",
+        "Path of the Zealot"
+      ]
+    },
+    {
+      "name": "Bard",
+      "subclasses": [
+        "College of Creation",
+        "College of Eloquence",
+        "College of Glamour",
+        "College of Lore",
+        "College of Spirits",
+        "College of Swords",
+        "College of Valor",
+        "College of Whispers"
+      ]
+    },
+    {
+      "name": "Cleric",
+      "subclasses": [
+        "Arcana Domain",
+        "Death Domain",
+        "Forge Domain",
+        "Grave Domain",
+        "Knowledge Domain",
+        "Life Domain",
+        "Light Domain",
+        "Nature Domain",
+        "Order Domain",
+        "Peace Domain",
+        "Tempest Domain",
+        "Trickery Domain",
+        "Twilight Domain",
+        "War Domain"
+      ]
+    },
+    {
+      "name": "Druid",
+      "subclasses": [
+        "Circle of Dreams",
+        "Circle of the Land",
+        "Circle of the Moon",
+        "Circle of the Shepherd",
+        "Circle of Spores",
+        "Circle of Stars",
+        "Circle of Wildfire"
+      ]
+    },
+    {
+      "name": "Fighter",
+      "subclasses": [
+        "Arcane Archer",
+        "Banneret (Purple Dragon Knight)",
+        "Battle Master",
+        "Cavalier",
+        "Champion",
+        "Echo Knight",
+        "Eldritch Knight",
+        "Psi Warrior",
+        "Rune Knight",
+        "Samurai"
+      ]
+    },
+    {
+      "name": "Monk",
+      "subclasses": [
+        "Way of the Astral Self",
+        "Way of the Drunken Master",
+        "Way of the Four Elements",
+        "Way of the Kensei",
+        "Way of the Long Death",
+        "Way of Mercy",
+        "Way of the Open Hand",
+        "Way of Shadow",
+        "Way of the Sun Soul"
+      ]
+    },
+    {
+      "name": "Paladin",
+      "subclasses": [
+        "Oath of the Ancients",
+        "Oath of Conquest",
+        "Oath of the Crown",
+        "Oath of Devotion",
+        "Oath of Glory",
+        "Oath of Redemption",
+        "Oath of Vengeance",
+        "Oath of the Watchers",
+        "Oathbreaker"
+      ]
+    },
+    {
+      "name": "Ranger",
+      "subclasses": [
+        "Beast Master",
+        "Drakewarden",
+        "Fey Wanderer",
+        "Gloom Stalker",
+        "Horizon Walker",
+        "Hunter",
+        "Monster Slayer",
+        "Swarmkeeper"
+      ]
+    },
+    {
+      "name": "Rogue",
+      "subclasses": [
+        "Arcane Trickster",
+        "Assassin",
+        "Inquisitive",
+        "Mastermind",
+        "Phantom",
+        "Scout",
+        "Soulknife",
+        "Swashbuckler",
+        "Thief"
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "subclasses": [
+        "Aberrant Mind",
+        "Clockwork Soul",
+        "Draconic Bloodline",
+        "Divine Soul",
+        "Lunar Sorcery",
+        "Shadow Magic",
+        "Storm Sorcery",
+        "Wild Magic"
+      ]
+    },
+    {
+      "name": "Warlock",
+      "subclasses": [
+        "The Archfey",
+        "The Celestial",
+        "The Fathomless",
+        "The Fiend",
+        "The Genie",
+        "The Great Old One",
+        "The Hexblade",
+        "The Undead",
+        "The Undying"
+      ]
+    },
+    {
+      "name": "Wizard",
+      "subclasses": [
+        "School of Abjuration",
+        "School of Bladesinging",
+        "School of Chronurgy",
+        "School of Conjuration",
+        "School of Divination",
+        "School of Enchantment",
+        "School of Evocation",
+        "School of Graviturgy",
+        "School of Illusion",
+        "School of Necromancy",
+        "Order of Scribes",
+        "School of Transmutation",
+        "War Magic"
+      ]
+    }
+  ],
+  "races": [
+    {
+      "name": "Dragonborn",
+      "subraces": [
+        "Chromatic Dragonborn",
+        "Draconblood",
+        "Gem Dragonborn",
+        "Metallic Dragonborn",
+        "Ravenite"
+      ]
+    },
+    {
+      "name": "Dwarf",
+      "subraces": [
+        "Duergar",
+        "Hill Dwarf",
+        "Mark of Warding Dwarf",
+        "Mountain Dwarf"
+      ]
+    },
+    {
+      "name": "Elf",
+      "subraces": [
+        "Astral Elf",
+        "Bishtahar / Tirahar",
+        "Dark Elf (Drow)",
+        "Eladrin",
+        "High Elf",
+        "Mark of Shadow Elf",
+        "Pallid Elf",
+        "Sea Elf",
+        "Shadar-kai",
+        "Vahadar",
+        "Wood Elf"
+      ]
+    },
+    {
+      "name": "Gnome",
+      "subraces": [
+        "Deep Gnome (Svirfneblin)",
+        "Forest Gnome",
+        "Mark of Scribing Gnome",
+        "Rock Gnome"
+      ]
+    },
+    {
+      "name": "Half-Elf",
+      "subraces": [
+        "Aquatic Half-Elf",
+        "Drow Half-Elf",
+        "High Half-Elf",
+        "Mark of Detection Half-Elf",
+        "Mark of Storm Half-Elf",
+        "Moon/Sun Half-Elf",
+        "Wood Half-Elf"
+      ]
+    },
+    {
+      "name": "Half-Orc",
+      "subraces": [
+        "Mark of Finding Half-Orc",
+        "Standard Half-Orc"
+      ]
+    },
+    {
+      "name": "Halfling",
+      "subraces": [
+        "Ghostwise Halfling",
+        "Lightfoot Halfling",
+        "Lotusden Halfling",
+        "Mark of Healing Halfling",
+        "Mark of Hospitality Halfling",
+        "Stout Halfling"
+      ]
+    },
+    {
+      "name": "Human",
+      "subraces": [
+        "Calishite",
+        "Chondathan",
+        "Damaran",
+        "Illuskan",
+        "Mark of Finding Human",
+        "Mark of Handling Human",
+        "Mark of Making Human",
+        "Mark of Passage Human",
+        "Mark of Sentinel Human",
+        "Mulan",
+        "Rashemi",
+        "Shou",
+        "Tethyrian",
+        "Turami",
+        "Variant Human"
+      ]
+    },
+    {
+      "name": "Tiefling",
+      "subraces": [
+        "Asmodeus Tiefling",
+        "Baalzebul Tiefling",
+        "Dispater Tiefling",
+        "Feral Tiefling",
+        "Fierna Tiefling",
+        "Glasya Tiefling",
+        "Levistus Tiefling",
+        "Mammon Tiefling",
+        "Mephistopheles Tiefling",
+        "Zariel Tiefling"
+      ]
+    },
+    {
+      "name": "Aasimar",
+      "subraces": [
+        "Fallen Aasimar",
+        "Protector Aasimar",
+        "Scourge Aasimar"
+      ]
+    },
+    {
+      "name": "Bugbear",
+      "subraces": []
+    },
+    {
+      "name": "Centaur",
+      "subraces": []
+    },
+    {
+      "name": "Changeling",
+      "subraces": []
+    },
+    {
+      "name": "Fairy",
+      "subraces": []
+    },
+    {
+      "name": "Firbolg",
+      "subraces": []
+    },
+    {
+      "name": "Genasi",
+      "subraces": [
+        "Air Genasi",
+        "Earth Genasi",
+        "Fire Genasi",
+        "Water Genasi"
+      ]
+    },
+    {
+      "name": "Gith",
+      "subraces": [
+        "Githyanki",
+        "Githzerai"
+      ]
+    },
+    {
+      "name": "Goblin",
+      "subraces": []
+    },
+    {
+      "name": "Goliath",
+      "subraces": []
+    },
+    {
+      "name": "Harengon",
+      "subraces": []
+    },
+    {
+      "name": "Hobgoblin",
+      "subraces": []
+    },
+    {
+      "name": "Kalashtar",
+      "subraces": []
+    },
+    {
+      "name": "Kenku",
+      "subraces": []
+    },
+    {
+      "name": "Kobold",
+      "subraces": []
+    },
+    {
+      "name": "Leonin",
+      "subraces": []
+    },
+    {
+      "name": "Lizardfolk",
+      "subraces": []
+    },
+    {
+      "name": "Loxodon",
+      "subraces": []
+    },
+    {
+      "name": "Minotaur",
+      "subraces": []
+    },
+    {
+      "name": "Orc",
+      "subraces": []
+    },
+    {
+      "name": "Owlin",
+      "subraces": []
+    },
+    {
+      "name": "Satyr",
+      "subraces": []
+    },
+    {
+      "name": "Shifter",
+      "subraces": [
+        "Beasthide",
+        "Longtooth",
+        "Swiftstride",
+        "Wildhunt"
+      ]
+    },
+    {
+      "name": "Simic Hybrid",
+      "subraces": []
+    },
+    {
+      "name": "Tabaxi",
+      "subraces": []
+    },
+    {
+      "name": "Tortle",
+      "subraces": []
+    },
+    {
+      "name": "Triton",
+      "subraces": []
+    },
+    {
+      "name": "Vedalken",
+      "subraces": []
+    },
+    {
+      "name": "Verdan",
+      "subraces": []
+    },
+    {
+      "name": "Warforged",
+      "subraces": []
+    },
+    {
+      "name": "Yuan-ti Pureblood",
+      "subraces": []
+    }
+  ]
+}
