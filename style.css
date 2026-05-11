@@ -15,6 +15,20 @@ header {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 5px;
+}
+
 #mainContent {
     display: flex;
     align-items: center;
